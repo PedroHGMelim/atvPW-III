@@ -14,8 +14,9 @@ const server = http.createServer((req, res) => {
 
     // CORS
     if (req.method === 'OPTIONS') {
-        res.statusCode = 204;
-        return res.end();
+        res.writeHead(204);
+        res.end();
+        return;
     }
 
     // Chama o roteador

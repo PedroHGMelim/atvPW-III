@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #f0f2f5;
+  background-color: #bebebe;
   font-family: 'Segoe UI', sans-serif;
   display: flex;
   justify-content: center;
@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  background: white;
+  background: rgb(155, 155, 155);
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -24,7 +24,7 @@ body {
 }
 
 h2 {
-  color: #333;
+  color: #000000;
   margin-bottom: 1.5rem;
 }
 
@@ -48,7 +48,7 @@ input:focus {
 }
 
 button {
-  background-color: #646cff;
+  background-color: #1925ff;
   color: white;
   border: none;
   padding: 10px 15px;
@@ -58,7 +58,7 @@ button {
 }
 
 button:hover {
-  background-color: #535bf2;
+  background-color: #333abe;
 }
 
 ul {
@@ -89,7 +89,7 @@ li button {
 }
 
 li button:hover {
-  background-color: #ff3333;
+  background-color: #e20e0e;
 }
 
 li.completa span {
@@ -122,6 +122,6 @@ li span {
 }
 
 .remover {
-  background-color: #ff4d4d;
+  background-color: #910000;
   margin-left: 10px;
 }

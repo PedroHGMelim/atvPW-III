@@ -10,12 +10,7 @@ const getRequestBody = (req) => {
         });
 
         req.on('end', () => {
-            try {
-                const parsed = body ? JSON.parse(body) : {};
-                resolve(parsed);
-            } catch (error) {
-                reject(error);
-            }
+            resolve(JSON.parse(body));
         });
     });
 };

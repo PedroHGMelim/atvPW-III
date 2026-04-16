@@ -2,7 +2,7 @@ const taskController = require('../controllers/taskController');
 
 module.exports = (req, res) => {
 
-    const url = req.url.split('?')[0].replace(/\/$/, '');
+    const url = req.url;    
     const method = req.method;
 
     // GET /tasks
@@ -26,6 +26,7 @@ module.exports = (req, res) => {
         const id = url.split('/')[2];
         return taskController.updateTask(req, res, id);
     }
+    
     // DELETE /tasks/:id
     if (url.startsWith('/tasks/') && method === 'DELETE') {
         const id = url.split('/') [2];
