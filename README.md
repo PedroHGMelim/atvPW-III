@@ -94,29 +94,15 @@ O frontend foi desenvolvido com React.js e mantém as tarefas no Local Storage p
 
 As tarefas são renderizadas em uma lista, e ao interagir com elas, os dados são salvos diretamente no Local Storage do navegador.
 
-### Estrutura do Projeto
-atvPW-III/
-│
-├── backend-my-to-do-list/
-│   ├── src/                # Pasta que armazena tudo
-│   │   ├── app.js                 # Arquivo principal do servidor
-│   │   ├── controllers/           # Controladores para o gerenciamento das tarefas
-│   │   ├── models/                # Modelos que definem a estrutura das tarefas
-│   │   ├── routes/                # Definição das rotas do backend
-│   │   └── services/              # Lógica de manipulação dos dados
-│   ├── package.json               # Dependências do backend
-│   └── data/
-│       └── tasks.json         # Arquivo JSON que armazena as tarefas
-│
-├── my-to-do-list/
-│   ├── src/
-│   │   ├── components/
-│   │   │   └── ListaTarefas.jsx  # Componente React para exibição das tarefas
-│   │   ├── App.jsx            # Componente principal da aplicação
-│   │   └── App.css            # Estilos do frontend
-└── package.json               # Dependências do frontend
-
 ### Como o problema foi resolvido
 - Persistência de Dados: Para persistência de dados no backend, utilizamos um arquivo JSON (tasks.json), onde as tarefas são lidas e salvas no sistema de arquivos. Não foi utilizado um banco de dados real, pois o foco foi em uma solução simples para o gerenciamento de tarefas.
 - Interface Simples e Eficiente: No frontend, as tarefas são armazenadas no Local Storage do navegador para que, mesmo após a reinicialização da aplicação, as tarefas não sejam perdidas. A interface React foi projetada para ser simples e fácil de usar, permitindo uma interação intuitiva com a lista de tarefas.
 - Organização de Tarefas: O frontend permite ao usuário organizar as tarefas por ordem alfabética ou por data, utilizando funções de ordenação do JavaScript.
+
+---
+
+## Vídeo para demonstração
+Se desejar apenas ver o vídeo demonstração, segue o link do Youtube:
+```bash
+Em produção
+```
